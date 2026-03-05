@@ -6,4 +6,7 @@ week_days = {1: 'Monday',
              5: 'Friday',
              6: 'Saturday',
              7: 'Sunday'}
-print(number, "-", week_days[number])
+if number in week_days:
+    print(number, '-', week_days[number])
+else:
+    print('Sorry, that day does not exist')
